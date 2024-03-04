@@ -1,0 +1,261 @@
+@charset "utf-8";
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap');
+  
+  body {
+    font-family: 'Noto Serif JP', serif;
+  position: relative;
+
+  }
+  /*añadimos algo*/
+  li {
+    list-style: none;
+  }
+  p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  div,li {
+    box-sizing: border-box;
+  }
+
+  #top {
+    background-color: #23282c;
+  }
+
+  .section_inner {
+  padding: 50px 10% 30px;
+}
+
+
+.key {
+    height: 500px;
+    background: center / cover no-repeat url(d:\Downloads\sample_key.jpg);
+    font-weight: bold;
+    margin-top: 0%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+
+
+  .key h1{
+    font-size: 2.5rem;
+  }
+  /*añado*/
+  .content-container {
+    text-align: left;
+  }
+  
+  .section_title {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+
+  }
+
+  /*seguimos*/
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .content p {
+    width: 60%;
+  }
+  
+  .content img {
+    width: 35%;
+  }
+
+
+  .menu_title {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #42210b;
+    border-bottom: solid #42210b 1px;
+    margin-bottom: 20px;
+  }
+
+  /* aqui tambien*/
+
+  .articleMenu {
+    background-image: url(d:\Downloads\sample_menu_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+  
+  
+  .center {
+    text-align: center;
+  }
+  /*aqui n*/
+
+
+.horizontal-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+.horizontal-list li {
+  width: 49%;
+  margin-right: 1%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+/*tambien*/
+
+.pancake-image {
+  flex: 0 0 55%;
+}
+
+.pancake-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.price {
+  align-self: flex-end;
+}
+/*aqui*/
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  list-style: none; 
+  padding: 20px; 
+  background: white; 
+  margin: 20px;
+}
+.menu-list .menu-item {
+  width: 49%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-details {
+  flex: 1;
+  padding: 10px;
+  max-width: 80%;
+
+}
+
+
+.coffee_menu_image {
+  width: 20%;
+  border-radius: 50%;
+}
+
+  .header_nav {
+    background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6)60%);
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: stretch;
+    position: fixed;
+    top: 0;
+    width: 100%;  
+  }
+
+
+  .global_nav {
+    display: flex;
+    list-style: none;
+    align-items: stretch;
+  }
+  .global_nav_item {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    
+  }
+  
+  .global_nav_item:hover {
+    background: #fff;
+    color: #42210b;
+  }
+  .logo {
+    width: 120px;
+    display: flex;
+    align-items: center;
+  }
+  .logo img{
+    width: 100%;
+  }
+
+  .access-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .menu {
+    width: 49%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  dl {
+    display: flex;
+    margin: 20px;
+  }
+  
+  dt {
+    width: 80px;
+    font-weight: bold;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+  }
+  
+  
+  footer {
+    background-color: #251e19;
+    color: white;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 0 ;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav img {
+    max-height: 80px;
+    max-width: 80px;
+    height: auto;
+  }
+  
